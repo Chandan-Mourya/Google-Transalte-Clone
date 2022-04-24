@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GOOGLE TRANSLATE CLONE</h1>
+    <div id="container"> 
+        <div id="a">
+            <select name="inp-lang" id="inp-lang">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+            </select>
+            <!-- <button onclick="Translate()">Translate</button> -->
+            <input oninput="debounce(Translate, 1000)" name="input-text" id="input-text" placeholder="Type To Translate">  </input>
+        </div>
+        <div id="b">
+            <select name="inp-lang" id="out-lang">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+        </select>
+        <p id="out-value"></p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="/index.js"></script>

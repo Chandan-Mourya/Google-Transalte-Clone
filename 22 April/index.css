@@ -1,0 +1,54 @@
+#container{
+    /* border:1px solid blue; */
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#container > div{
+    height: 300px;
+    width: 40%;
+    /* border: 2px solid red; */
+    margin: auto;
+   
+
+}
+input{
+    height:90%;
+    width: 99%;
+    font-size: 30px;
+    font-family:sans-serif;
+    background-color: aliceblue;
+    border: 0px solid;
+    
+}
+#out-value{
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+select{
+    height: 40px;
+    width: 100px;
+    border: 2px solid #29f;
+    color: white;
+    background-color: #29f;
+    border-radius: 5px;
+    font-size: 20px;
+}
+option{
+    background-color:white;
+    color: black;
+}
+h1{
+
+    color: #29f;
+    text-align: center;
+}
+#b{
+    background-color: aliceblue;
+}
